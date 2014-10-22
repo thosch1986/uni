@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>PFP-Ueb02</name>
+	<comment>@key 32303037303533312D3130205046502D55656230322F74686F727374656E2E7363686D696474 </comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.soyatec.additional.Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>com.soyatec.additional.Nature</nature>
+	</natures>
+</projectDescription>

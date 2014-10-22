@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="(default package)" size="778,444" id="" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D3130205046502D5565623036">
+  <children xsi:type="editmodel:ClassEditModel" name="FixedExecutorService" location="90,90" size="237,326" id="/FixedExecutorService" runTimeClassModel="shutdownNow(),isShutdown,execute(Ljava.lang.Runnable;),submit(Ljava.lang.Runnable;LT;),warteschlange,threads,FixedExecutorService.Worker,FixedExecutorService(I),shutdown(),anzahlThreads,isShutdown(),submit(Ljava.util.concurrent.Callable;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="214,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="anzahlThreads" id="/FixedExecutorService#anzahlThreads"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="isShutdown" id="/FixedExecutorService#isShutdown"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="threads" id="/FixedExecutorService#threads"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="warteschlange" id="/FixedExecutorService#warteschlange"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,126">
+      <children xsi:type="editmodel:MethodEditModel" name="FixedExecutorService" id="/FixedExecutorService#FixedExecutorService(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="execute" id="/FixedExecutorService#execute(Ljava.lang.Runnable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isShutdown" id="/FixedExecutorService#isShutdown()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="shutdown" id="/FixedExecutorService#shutdown()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="shutdownNow" id="/FixedExecutorService#shutdownNow()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="submit" id="/FixedExecutorService#submit(Ljava.lang.Runnable;LT;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="submit" id="/FixedExecutorService#submit(Ljava.util.concurrent.Callable;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,69">
+      <children xsi:type="editmodel:ClassEditModel" name="Worker" size="79,67" id="/FixedExecutorService$Worker" runTimeClassModel="run()">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="40,18">
+          <children xsi:type="editmodel:MethodEditModel" name="run" id="/FixedExecutorService$Worker#run()"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/SimpleExecutorService&lt;-/FixedExecutorService" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="237,80" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,85"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.0/@sourceConnections.0" name="SimpleExecutorService" location="480,85" size="158,167" id="/SimpleExecutorService" runTimeClassModel="shutdownNow(),execute(Ljava.lang.Runnable;),submit(Ljava.lang.Runnable;LT;),shutdown(),isShutdown(),submit(Ljava.util.concurrent.Callable;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="82,108">
+      <children xsi:type="editmodel:MethodEditModel" name="execute" id="/SimpleExecutorService#execute(Ljava.lang.Runnable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isShutdown" id="/SimpleExecutorService#isShutdown()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="shutdown" id="/SimpleExecutorService#shutdown()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="shutdownNow" id="/SimpleExecutorService#shutdownNow()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="submit" id="/SimpleExecutorService#submit(Ljava.lang.Runnable;LT;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="submit" id="/SimpleExecutorService#submit(Ljava.util.concurrent.Callable;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

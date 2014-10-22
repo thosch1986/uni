@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="(default package)" size="1429,1716" id="" metadata="uml2-1.0" initialized="true" scrolledY="-21" tag="10" key="32303037303533312D3130205046502D5565623035">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.2 //@children.1/@sourceConnections.2 //@children.6/@sourceConnections.1 //@children.5/@sourceConnections.1 //@children.7/@sourceConnections.2 //@children.4/@sourceConnections.1" name="Field" location="601,974" size="141,211" id="/Field" runTimeClassModel="clear(),putObject(I),getCurrentObject(),Field(II),fREE_FIELD,pICKUP_FIELD,y,cONFLICT_FIELD,x">
+    <children xsi:type="editmodel:CompartmentEditModel" size="118,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="cONFLICT_FIELD" id="/Field#cONFLICT_FIELD"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fREE_FIELD" id="/Field#fREE_FIELD"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pICKUP_FIELD" id="/Field#pICKUP_FIELD"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="x" id="/Field#x"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="y" id="/Field#y"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Field" id="/Field#Field(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clear" id="/Field#clear()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCurrentObject" id="/Field#getCurrentObject()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="putObject" id="/Field#putObject(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="/Field@body+/PFPSnake@" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="body" location="0,78" id="/Field@body+/PFPSnake@|/Field#body" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.0/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - body" location="560,1031" size="34,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="590,1059" size="4,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="108,42" id="/Field@body+/PFPSnake@|/PFPSnake#"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0" name="PFPSnake" location="50,1010" size="108,85" id="/PFPSnake" runTimeClassModel="PFPSnake(ILPFPSnakeGame;LField;LStrategy;),run()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="78,36">
+      <children xsi:type="editmodel:MethodEditModel" name="PFPSnake" id="/PFPSnake#PFPSnake(ILPFPSnakeGame;LField;LStrategy;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="/PFPSnake#run()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="/PFPSnakeGame@session+/PFPSnake@" source="//@children.1" target="//@children.6" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="98,0" id="/PFPSnakeGame@session+/PFPSnake@|/PFPSnake#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="session" location="0,215" id="/PFPSnakeGame@session+/PFPSnake@|/PFPSnakeGame#session" multiplicityLabel="//@children.1/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.1/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - session" location="507,532" size="48,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="549,560" size="6,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="/Strategy@strategy+/PFPSnake@" source="//@children.1" target="//@children.5" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="98,85" id="/Strategy@strategy+/PFPSnake@|/PFPSnake#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="strategy" location="0,10" id="/Strategy@strategy+/PFPSnake@|/Strategy#strategy" multiplicityLabel="//@children.1/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.1/@sourceConnections.1/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - strategy" location="783,1367" size="50,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="827,1339" size="6,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/PFPSnake-Soyatec::Import->/Field" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.2/@children.2" label="//@children.1/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="108,62" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,115"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/PFPSnake-Standard::Call->/PFPSnakeGame*/PFPSnake-Soyatec::Import->/PFPSnakeGame" source="//@children.1" target="//@children.6" targetEnd="//@children.1/@sourceConnections.3/@children.2" label="//@children.1/@sourceConnections.3/@children.0" sourceEnd="//@children.1/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="108,15" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="15,225"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/PFPSnake-Standard::Call->/Strategy*/PFPSnake-Soyatec::Import->/Strategy" source="//@children.1" target="//@children.5" targetEnd="//@children.1/@sourceConnections.4/@children.2" label="//@children.1/@sourceConnections.4/@children.0" sourceEnd="//@children.1/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="98,85" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="107,5"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.1 //@children.6/@sourceConnections.0 //@children.5/@sourceConnections.0 //@children.7/@sourceConnections.1 //@children.4/@sourceConnections.0" name="Board" location="1211,785" size="155,139" id="/Board" runTimeClassModel="Board(I),getNeighbors(LField;),dimension,getField(II),putAtRandomPosition(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="84,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="dimension" id="/Board#dimension"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="132,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Board" id="/Board#Board(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getField" id="/Board#getField(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNeighbors" id="/Board#getNeighbors(LField;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="putAtRandomPosition" id="/Board#putAtRandomPosition(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="/Board@board+/PFPSnakeGame@" source="//@children.2" target="//@children.6" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="board" location="0,10" id="/Board@board+/PFPSnakeGame@|/Board#board" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" + board" location="1164,802" size="40,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1186,774" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="136,225" id="/Board@board+/PFPSnakeGame@|/PFPSnakeGame#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="/Board@board+/PFPSnakeGameImpl@" source="//@children.2" target="//@children.7" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="board" location="0,55" id="/Board@board+/PFPSnakeGameImpl@|/Board#board" attachSource="true" multiplicityLabel="//@children.2/@sourceConnections.1/@children.1/@children.1" roleLabel="//@children.2/@sourceConnections.1/@children.1/@children.0" navigable="true" changeability="2">
+        <children xsi:type="editmodel:LabelEditModel" name=" - board" location="1166,819" size="38,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1186,847" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,227" id="/Board@board+/PFPSnakeGameImpl@|/PFPSnakeGameImpl#" roleLabel="//@children.2/@sourceConnections.1/@children.2/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="729,819" size="0,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/Board-Standard::Call->/Field*/Board-Soyatec::Access->/Field*/Board-Standard::Instantiate->/Field*/Board-Soyatec::Import->/Field" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import, Instantiate, Access»" size="162,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,97" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="141,79"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.3" name="GridWindow" location="1225,50" size="164,103" id="/GridWindow" runTimeClassModel="paintComponent(),GridWindow(Ljava.lang.String;LBoard;I),frameAndCaptionSizes()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="141,54">
+      <children xsi:type="editmodel:MethodEditModel" name="GridWindow" id="/GridWindow#GridWindow(Ljava.lang.String;LBoard;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="frameAndCaptionSizes" id="/GridWindow#frameAndCaptionSizes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="paintComponent" id="/GridWindow#paintComponent()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="/GridWindow@gridWindow+/PFPSnakeGameImpl@" source="//@children.3" target="//@children.7" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="gridWindow" location="0,98" id="/GridWindow@gridWindow+/PFPSnakeGameImpl@|/GridWindow#gridWindow" attachSource="true" multiplicityLabel="//@children.3/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.3/@sourceConnections.0/@children.1/@children.0" navigable="true" changeability="2">
+        <children xsi:type="editmodel:LabelEditModel" name=" - gridWindow" location="1150,127" size="68,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="1200,155" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,36" id="/GridWindow@gridWindow+/PFPSnakeGameImpl@|/PFPSnakeGameImpl#" roleLabel="//@children.3/@sourceConnections.0/@children.2/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="729,628" size="0,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/GridWindow-Soyatec::Import->/Board" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,103" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="84,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SimpleStrategy" location="825,1575" size="140,67" id="/SimpleStrategy" runTimeClassModel="decideField(Ljava.util.LinkedList;LBoard;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="84,18">
+      <children xsi:type="editmodel:MethodEditModel" name="decideField" id="/SimpleStrategy#decideField(Ljava.util.LinkedList;LBoard;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/SimpleStrategy-Soyatec::Import->/Board" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="87,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="41,139"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/SimpleStrategy-Soyatec::Import->/Field" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="56,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="115,211"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/SimpleStrategy-Soyatec::Implement->/Strategy" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="68,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="53,81"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/Strategy&lt;-/SimpleStrategy" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.3/@children.1" sourceEnd="//@children.4/@sourceConnections.3/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="48,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="33,81"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.1/@sourceConnections.1 //@children.1/@sourceConnections.4 //@children.4/@sourceConnections.2 //@children.4/@sourceConnections.3" name="Strategy" location="840,1350" size="107,81" id="/Strategy" runTimeClassModel="decideField(Ljava.util.LinkedList;LBoard;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="84,18">
+      <children xsi:type="editmodel:MethodEditModel" name="decideField" id="/Strategy#decideField(Ljava.util.LinkedList;LBoard;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/Strategy-Soyatec::Import->/Board" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="25,139"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/Strategy-Soyatec::Import->/Field" source="//@children.5" target="//@children.0" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="24,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="141,204"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.1/@sourceConnections.0 //@children.1/@sourceConnections.3 //@children.7/@sourceConnections.0 //@children.7/@sourceConnections.4" name="PFPSnakeGame" location="562,338" size="146,225" id="/PFPSnakeGame" runTimeClassModel="moveAllowed(I),init(),hasPickup(I),allSnakesDead(),killMe(I),nextRound(),moveTo(LField;I),getPossibleFields(Ljava.util.LinkedList;),leave(LField;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,162">
+      <children xsi:type="editmodel:MethodEditModel" name="allSnakesDead" id="/PFPSnakeGame#allSnakesDead()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPossibleFields" id="/PFPSnakeGame#getPossibleFields(Ljava.util.LinkedList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasPickup" id="/PFPSnakeGame#hasPickup(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="init" id="/PFPSnakeGame#init()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="killMe" id="/PFPSnakeGame#killMe(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="leave" id="/PFPSnakeGame#leave(LField;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="moveAllowed" id="/PFPSnakeGame#moveAllowed(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="moveTo" id="/PFPSnakeGame#moveTo(LField;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="nextRound" id="/PFPSnakeGame#nextRound()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/PFPSnakeGame-Soyatec::Import->/Board" source="//@children.6" target="//@children.2" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="146,220" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="15,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/PFPSnakeGame-Soyatec::Import->/Field" source="//@children.6" target="//@children.0" targetEnd="//@children.6/@sourceConnections.1/@children.2" label="//@children.6/@sourceConnections.1/@children.0" sourceEnd="//@children.6/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="92,225" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="53,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.1 //@children.3/@sourceConnections.0" name="PFPSnakeGameImpl" location="548,613" size="174,283" id="/PFPSnakeGameImpl" runTimeClassModel="main([Ljava.lang.String;),moveAllowed(I),init(),allSnakesDead(),PFPSnakeGameImpl(II),nextRound(),leave(LField;),startGame(),getBoard(),hasPickup(I),killMe(I),moveTo(LField;I),getPossibleFields(Ljava.util.LinkedList;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,234">
+      <children xsi:type="editmodel:MethodEditModel" name="PFPSnakeGameImpl" id="/PFPSnakeGameImpl#PFPSnakeGameImpl(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="allSnakesDead" id="/PFPSnakeGameImpl#allSnakesDead()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBoard" id="/PFPSnakeGameImpl#getBoard()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPossibleFields" id="/PFPSnakeGameImpl#getPossibleFields(Ljava.util.LinkedList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hasPickup" id="/PFPSnakeGameImpl#hasPickup(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="init" id="/PFPSnakeGameImpl#init()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="killMe" id="/PFPSnakeGameImpl#killMe(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="leave" id="/PFPSnakeGameImpl#leave(LField;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="/PFPSnakeGameImpl#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="moveAllowed" id="/PFPSnakeGameImpl#moveAllowed(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="moveTo" id="/PFPSnakeGameImpl#moveTo(LField;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="nextRound" id="/PFPSnakeGameImpl#nextRound()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startGame" id="/PFPSnakeGameImpl#startGame()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/PFPSnakeGameImpl-Soyatec::Implement->/PFPSnakeGame" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="87,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="73,225"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/PFPSnakeGameImpl-Soyatec::Import->/Board" source="//@children.7" target="//@children.2" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,207" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,24"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/PFPSnakeGameImpl-Soyatec::Import->/Field" source="//@children.7" target="//@children.0" targetEnd="//@children.7/@sourceConnections.2/@children.2" label="//@children.7/@sourceConnections.2/@children.0" sourceEnd="//@children.7/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="113,283" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="60,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/PFPSnakeGameImpl-Soyatec::Import->/GridWindow" source="//@children.7" target="//@children.3" targetEnd="//@children.7/@sourceConnections.3/@children.2" label="//@children.7/@sourceConnections.3/@children.0" sourceEnd="//@children.7/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="174,56" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="28,103"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/PFPSnakeGame&lt;-/PFPSnakeGameImpl" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.4/@children.1" sourceEnd="//@children.7/@sourceConnections.4/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="107,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,225"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
